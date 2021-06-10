@@ -1431,7 +1431,7 @@ img, embed, video, object, iframe, table {
 
 	#top-bar .open-menu a {
 		position: fixed;
-		top: .5em;
+		bottom: .5em;
 		left: .5em;
 		z-index: 15;
 		font-family: 'Nanum Gothic', sans-serif;
