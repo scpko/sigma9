@@ -370,7 +370,7 @@ sup {
 	clear: none;
 	float: none;
 	position: absolute;
-	top: .5em;
+	bottom: .5em;
 	left: 2em;
 	width: 17em;
 	padding: 0;
@@ -828,7 +828,7 @@ div.sexy-box div.image-container img {
 .thread-container .post .head {
 	padding: .5em 1em;
 	background-color: #eee;
-	background-color: linear-gradient(to right, #eee, #eeecec);
+	background: linear-gradient(to right, #eee, #eeecec);
 	box-shadow: inset 2px 3px 6px rgba(0, 0, 0, .15);
 	border-radius: 5px 5px 0 0;
 }
