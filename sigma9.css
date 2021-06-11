@@ -389,7 +389,13 @@ sup {
 }
 
 #side-bar .side-block.media {
+	padding: 10px 0;
 	background: #e5e5ff;
+}
+
+#side-bar .side-block.media img {
+	width: 40px;
+	height: 40px;
 }
 
 #side-bar .side-block.resources {
