@@ -370,7 +370,7 @@ sup {
 	clear: none;
 	float: none;
 	position: absolute;
-	bottom: .5em;
+	top: .5em;
 	left: 2em;
 	width: 17em;
 	padding: 0;
