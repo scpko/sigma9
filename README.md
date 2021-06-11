@@ -1,11 +1,6 @@
 ## 시그마-9
 
-<p>
-  <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ko">
-    <img src="https://img.shields.io/badge/License-CC%20BY--SA%203.0-lightgrey.svg?style=for-the-badge"
-         alt="라이선스 배지">
-  </a>
-</p>
+[![](https://img.shields.io/badge/License-CC%20BY--SA%203.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by-sa/3.0/deed.ko) [![](https://data.jsdelivr.com/v1/package/gh/scpko/sigma9/badge)](https://www.jsdelivr.com/package/gh/scpko/sigma9)
 
 [SCP 위키](http://scpko.wikidot.com) 스타일링을 위한 기본 CSS, 시그마-9 테마의 리포지토리입니다. [Aelanna](http://www.wikidot.com/user:info/aelanna)가 처음 만들었으며, 현재 SCP 재단 한국어 위키 관리자와 기술지원 스태프가 유지보수하고 있습니다.
 
