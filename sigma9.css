@@ -1,3 +1,9 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Gothic:wght@400;700&display=swap');
+@import url('./font/font-bauhaus.css');
+@import url('./font/font-awesome.min.css');
+
 /*
 	SCP Sigma 9
 	[2014 Wikidot Theme]
@@ -6,12 +12,6 @@
 	Edited for SCP 재단 by Denevola
 	Nested topbar by Mafiew
 */
-
-@charset "utf-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Gothic:wght@400;700&display=swap');
-@import url('./font/font-bauhaus.css');
-@import url('./font/font-awesome.min.css');
 
 /* FONTS */
 body,
@@ -194,7 +194,7 @@ sup {
 	color: #fff;
 	text-shadow: 0 0 1px rgba(255, 255, 255, .25);
 	background-color: #966;
-	background-color: linear-gradient(to bottom, #c99, #966, #633);
+	background: linear-gradient(to bottom, #c99, #966, #633);
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .8);
 }
 
@@ -804,8 +804,6 @@ div.sexy-box div.image-container img {
 	font-weight: bold;
 	opacity: .5;
 	color: inherit;
-	-webkit-transition: opacity .5s ease-in-out;
-	-moz-transition: opacity .5s ease-in-out;
 	transition: opacity .5s ease-in-out;
 }
 
@@ -828,7 +826,7 @@ div.sexy-box div.image-container img {
 .thread-container .post .head {
 	padding: .5em 1em;
 	background-color: #eee;
-	background-color: linear-gradient(to right, #eee, #eeecec);
+	background: linear-gradient(to right, #eee, #eeecec);
 	box-shadow: inset 2px 3px 6px rgba(0, 0, 0, .15);
 	border-radius: 5px 5px 0 0;
 }
@@ -861,8 +859,6 @@ div.sexy-box div.image-container img {
 	border: 1px solid;
 	border-color: #ddd #bbb #bbb #ddd;
 	border-bottom-width: 2px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	background-color: #f9f9f9;
 	padding: 1px 3px;
@@ -882,11 +878,7 @@ div.sexy-box div.image-container img {
 	background: #666;
 	color: #fff;
 	text-decoration: none;
-	-moz-border-radius-bottomright: 4px;
-	-webkit-border-bottom-right-radius: 4px;
 	border-bottom-right-radius: 4px;
-	-moz-border-radius-topright: 4px;
-	-webkit-border-top-right-radius: 4px;
 	border-top-right-radius: 4px;
 }
 
@@ -912,12 +904,8 @@ div.sexy-box div.image-container img {
 	float: left;
 	width: 4px;
 	height: 4px;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	background: #fff;
-	-moz-box-shadow: -1px -1px 2px #004977;
-	-webkit-box-shadow: -1px -1px 2px #333;
 	box-shadow: -1px -1px 2px #333;
 }
 
@@ -1196,8 +1184,6 @@ img, embed, video, object, iframe, table {
 	}
 
 	#header h1, #header h2 {
-		margin-left: -webkit-calc(66px + 5%);
-		margin-left: -moz-calc(66px + 5%);
 		margin-left: calc(66px + 5%);
 	}
 
@@ -1449,10 +1435,6 @@ img, embed, video, object, iframe, table {
 
 	#top-bar .open-menu a:hover {
 		text-decoration: none;
-		-webkit-box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
-		-moz-box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
-		-ms-box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
-		-o-box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
 		box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
 	}
 
@@ -1460,10 +1442,6 @@ img, embed, video, object, iframe, table {
 		max-width: 90%;
 		margin: 0 5%;
 		padding: 0;
-		-webkit-transition: .5s ease-in-out .1s;
-		-moz-transition: .5s ease-in-out .1s;
-		-ms-transition: .5s ease-in-out .1s;
-		-o-transition: .5s ease-in-out .1s;
 		transition: .5s ease-in-out .1s;
 	}
 
@@ -1478,10 +1456,6 @@ img, embed, video, object, iframe, table {
 		overflow-y: auto;
 		z-index: 10;
 		padding: 1em 1em 0 1em;
-		-webkit-transition: left .5s ease-in-out .1s;
-		-moz-transition: left .5s ease-in-out .1s;
-		-ms-transition: left .5s ease-in-out .1s;
-		-o-transition: left .5s ease-in-out .1s;
 		transition: left .5s ease-in-out .1s;
 	}
 
@@ -1586,12 +1560,9 @@ div#u-adult-warning > .error-block {
 }
 
 #top-bar div.top-bar > ul > li > ul > li:hover > ul,
-#top-bar div.mobile-top-bar > ul > li > ul > li:hover > ul {
-	visibility: visible;
-}
-
-#top-bar div.top-bar > ul > li > ul > li:sfhover > ul,
-#top-bar div.mobile-top-bar > ul > li > ul > li:sfhover > ul {
+#top-bar div.top-bar > ul > li > ul > li.sfhover > ul,
+#top-bar div.mobile-top-bar > ul > li > ul > li:hover > ul,
+#top-bar div.mobile-top-bar > ul > li > ul > li.sfhover > ul {
 	visibility: visible;
 }
 
