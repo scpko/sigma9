@@ -1,0 +1,11 @@
+/* Copy styling from sigma9 */
+@import url('../sigma9.css');
+
+/* Adjust header and background image */
+#header {
+	background-image: url('../img/sandbox-logo.png');
+}
+
+div#container-wrap {
+	background-image: url('../img/sandbox1-body_bg.png');
+}
