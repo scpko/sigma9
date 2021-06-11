@@ -424,6 +424,10 @@ sup {
 	font-weight: bold;
 }
 
+#side-bar .heading:first-child {
+	margin-top: 0;
+}
+
 #side-bar p {
 	margin: 0;
 }
