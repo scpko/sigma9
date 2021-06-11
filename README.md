@@ -15,7 +15,7 @@ https://cdn.jsdelivr.net/gh/scpko/sigma9@{짧은 길이 커밋 해시}/sigma9.cs
 
 ### 기여
 
-유의미한 변경, 기여를 한 경우 아래 목록과 [CSS 파일](sigma9.css)에 저작자표시를 부탁드립니다.
+유의미한 규모의 변경, 기여를 한 경우 아래 목록과 [CSS 파일](sigma9.css)에 저작자표시를 부탁드립니다.
 ```
 SCP Sigma 9
 [2014 Wikidot Theme]
