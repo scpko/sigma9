@@ -1554,6 +1554,7 @@ div#u-adult-warning > .error-block {
 
 /* Nested Topbar */
 #top-bar ul li ul li ul {
+	top: 0;
 	left: 173px;
 	width: min-content;
 	border: solid 1px #666;
