@@ -1464,6 +1464,7 @@ img, embed, video, object, iframe, table {
 		width: 17em;
 		height: 100%;
 		background-color: rgb(184, 134, 134);
+		border-right: 1px solid #dedede;
 		overflow-y: auto;
 		z-index: 10;
 		padding: 1em 1em 0 1em;
@@ -1484,7 +1485,6 @@ img, embed, video, object, iframe, table {
 		left: 0;
 		width: 17em;
 		margin: 0;
-		border: 1px solid #dedede;
 		z-index: 10;
 	}
 
