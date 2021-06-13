@@ -365,6 +365,38 @@ sup {
 	*margin-top: -4px;
 }
 
+/* Nested Topbar */
+#top-bar ul li ul li ul {
+	top: 0;
+	left: 173px;
+	width: min-content;
+	border: solid 1px #666;
+}
+
+#top-bar div.mobile-top-bar ul li ul li ul {
+	top: 19px;
+	left: 50px;
+}
+
+#top-bar div.top-bar > ul > li > ul > li > ul,
+#top-bar div.mobile-top-bar > ul > li > ul > li > ul {
+	visibility: hidden;
+}
+
+#top-bar div.top-bar > ul > li > ul > li:hover > ul,
+#top-bar div.top-bar > ul > li > ul > li.sfhover > ul,
+#top-bar div.mobile-top-bar > ul > li > ul > li:hover > ul,
+#top-bar div.mobile-top-bar > ul > li > ul > li.sfhover > ul {
+	visibility: visible;
+}
+
+.c_topbar_arrow {
+	position: absolute;
+	top: 1px;
+	right: 3px;
+	color: #a01;
+}
+
 /* SIDE MENU */
 #side-bar {
 	clear: none;
@@ -1551,36 +1583,4 @@ div#u-adult-warning > .error-block {
 	margin: unset;
 	border: unset;
 	margin-bottom: 1em;
-}
-
-/* Nested Topbar */
-#top-bar ul li ul li ul {
-	top: 0;
-	left: 173px;
-	width: min-content;
-	border: solid 1px #666;
-}
-
-#top-bar div.mobile-top-bar ul li ul li ul {
-	top: 19px;
-	left: 50px;
-}
-
-#top-bar div.top-bar > ul > li > ul > li > ul,
-#top-bar div.mobile-top-bar > ul > li > ul > li > ul {
-	visibility: hidden;
-}
-
-#top-bar div.top-bar > ul > li > ul > li:hover > ul,
-#top-bar div.top-bar > ul > li > ul > li.sfhover > ul,
-#top-bar div.mobile-top-bar > ul > li > ul > li:hover > ul,
-#top-bar div.mobile-top-bar > ul > li > ul > li.sfhover > ul {
-	visibility: visible;
-}
-
-.c_topbar_arrow {
-	position: absolute;
-	top: 1px;
-	right: 3px;
-	color: #a01;
 }
